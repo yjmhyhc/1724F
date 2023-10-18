@@ -1,0 +1,15 @@
+On information we can derive from the data visualization process:
+
+1. All these three formats of visualization are to show people the distributive properties of a geo system, and from the results we get so far, heat map gives us the most intuitive view of the distruibution of a certain kind of infrastructure in the geo system (like schools and residential places). Cluster map and hexagon binning map are stronger in accuracy while hexagon binning divide the interested area into hexagons of the same size, and from cluster maps, we can still perceive intuitively how infrastructure is distruibuted in the intrested area.
+
+2. During the process of selecting graphing parameters (like the radius of dots of a heat map or the numbers of hexagons in one edge of the interested area) .We finally settled on radius = 5 and the number of hexagons = 10, because we compared between different values and found these values give us the most intuitive view.
+
+3. We should also consider the size of a hexagon by comparing it to the size of a real-world street block, the optimal would be these two having the same size, because it helps us to choose whether a certain real-world block needs to be on the routes of our school buses in a school bus routing problem.
+
+4. We carefully choose the value of zoom = 10 to help readers get a initial clear view without using scroll wheel zooming.
+
+5. Based on the visualization of residence statistics, we know that the density of residential houses is big in the west and south part of the interested area. If we assume that students do not have a particular preference in choosing a place to live, then it is safe to assume the number of students in these areas are more than the others, so we should try our best to let our routes of buses go through these areas.
+
+6. Based on the visualization of school statistics, we know that more schools are located in the west part, so it is resonable if we design our routes to go from the east to the west to send students to school, and goes in the opposite direction to take them home.
+
+7. Based on the visualization of traffic accidents statistics, we know that in the center of our area, traffic accidents are more likely to happen, so if we want to keep the journey to school safe for students, we should not go through these dangerous areas.
